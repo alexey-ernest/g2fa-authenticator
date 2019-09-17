@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Google 2fa authenticator</title>
+    <script src="./index.js"></script>
+    <style>
+      form {
+        width: 90%;
+        margin: 50px auto;        
+      }
+      form input {
+        width: 98%;
+        font-size: 1.5em;
+        text-align: center;
+      }
+      form #result {
+        margin-top: 30px;
+        font-size: 4em;
+        color: #333;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form onsubmit="onformsubmit(event)">
+      <div>
+        <input type="text" value="" id="g2fa-key" placeholder="2fa key" onkeyup="onkeychange(event)" onfocus="this.select()" onmouseup="return false" />
+      </div>
+      <div id="result" onclick="oncodeclick(event)"></div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "name": "g2fa-authenticator",
+  "productName": "Google2FAAuthenticator",
+  "version": "1.0.0",
+  "description": "Google 2fa desktop authenticator app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "electron-packager . --out=builds --all --asar --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexey-ernest/g2fa-authenticator.git"
+  },
+  "keywords": [
+    "google",
+    "2fa",
+    "desktop",
+    "authenticator"
+  ],
+  "author": "Alexey Melnikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexey-ernest/g2fa-authenticator/issues"
+  },
+  "homepage": "https://github.com/alexey-ernest/g2fa-authenticator#readme",
+  "devDependencies": {
+    "electron": "^6.0.9",
+    "electron-packager": "^14.0.6"
+  },
+  "dependencies": {
+    "authenticator": "^1.1.5",
+    "electron-is-dev": "^1.1.0"
+  }
+}
