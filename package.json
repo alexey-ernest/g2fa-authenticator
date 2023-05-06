@@ -27,7 +27,7 @@
   "homepage": "https://github.com/alexey-ernest/g2fa-authenticator#readme",
   "devDependencies": {
     "electron": "^6.0.9",
-    "electron-packager": "^14.0.6"
+    "electron-packager": "^17.1.1"
   },
   "dependencies": {
     "authenticator": "^1.1.5",
